@@ -16,9 +16,9 @@ import mx.edu.upa.bean.Puesto;
 public interface OperacionesDAO {
 
     ArrayList select();
-    int insert(Puesto puesto);
+    int insert(Bean bean);
     boolean delete(int id);
-    boolean update(Puesto puesto,int id);
+    boolean update(Bean bean,int id);
     Bean find(int id);
 
 }

@@ -19,7 +19,7 @@ public class EmpleadoDAO  implements OperacionesDAO{
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
-    public int insert(Puesto puesto) {
+    public int insert(Bean bean) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
@@ -27,13 +27,15 @@ public class EmpleadoDAO  implements OperacionesDAO{
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
-    public boolean update(Puesto puesto, int id) {
+    public boolean update(Bean bean, int id) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public Bean find(int id) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    
 
   
 
