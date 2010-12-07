@@ -18,7 +18,7 @@ public interface OperacionesDAO {
     ArrayList select();
     int insert(Puesto puesto);
     boolean delete(int id);
-    boolean update(Bean bean);
+    boolean update(Puesto puesto,int id);
     Bean find(int id);
 
 }
